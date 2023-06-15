@@ -158,16 +158,13 @@
   
 /* Aside (product detail y carrito) */
 
-aside {
-  background-color: var(--white);
+.product-detail {
   width: 360px;
   padding: 24px;
   box-sizing: border-box;
   position: absolute;
   right: 0;
 }
-
-/*  ShoppingCart */
 .title-container {
   display: flex;
 }
@@ -236,12 +233,6 @@ aside {
   height: 50px;
 }
 
-/* ProductDetail  */
-
-/* Product List */
-
-
-
   @media (max-width: 640px) {
     .menu {
       display: block;
@@ -255,11 +246,11 @@ aside {
     .desktop-menu {
       display: none;
     }
-
-    aside {
+    .product-detail {
       width: 100%;
     }
   }
+
   @media (min-width: 641px) {
       .mobile-menu {
         display: none;
